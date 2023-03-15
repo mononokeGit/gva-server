@@ -1,0 +1,5 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 09:24:53.210	[34minfo[0m	D:/gin-vue-admin/server/initialize/gorm.go:70	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 09:24:53.337	[34minfo[0m	D:/gin-vue-admin/server/initialize/router.go:40	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 09:24:54.297	[34minfo[0m	D:/gin-vue-admin/server/initialize/router.go:85	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 09:24:54.323	[34minfo[0m	D:/gin-vue-admin/server/core/server.go:36	server run success on 	{"address": ":8888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 10:14:32.040	[34minfo[0m	D:/gin-vue-admin/server/api/v1/system/sys_initdb.go:57	数据库无需初始化
