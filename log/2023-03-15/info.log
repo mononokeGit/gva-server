@@ -3,3 +3,23 @@
 [github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 09:24:54.297	[34minfo[0m	D:/gin-vue-admin/server/initialize/router.go:85	router register success
 [github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 09:24:54.323	[34minfo[0m	D:/gin-vue-admin/server/core/server.go:36	server run success on 	{"address": ":8888"}
 [github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 10:14:32.040	[34minfo[0m	D:/gin-vue-admin/server/api/v1/system/sys_initdb.go:57	数据库无需初始化
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 10:59:49.702	[34minfo[0m	D:/gin-vue-admin/server/initialize/gorm.go:72	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 10:59:49.710	[34minfo[0m	D:/gin-vue-admin/server/initialize/router.go:41	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 10:59:49.726	[34minfo[0m	D:/gin-vue-admin/server/initialize/router.go:87	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 10:59:49.736	[34minfo[0m	D:/gin-vue-admin/server/core/server.go:36	server run success on 	{"address": ":8888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 15:15:10.384	[34minfo[0m	D:/gin-vue-admin/server/initialize/gorm.go:72	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 15:15:10.390	[34minfo[0m	D:/gin-vue-admin/server/initialize/router.go:41	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 15:15:10.401	[34minfo[0m	D:/gin-vue-admin/server/initialize/router.go:87	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 15:15:10.403	[34minfo[0m	D:/gin-vue-admin/server/core/server.go:36	server run success on 	{"address": ":8888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 17:01:34.702	[34minfo[0m	D:/gin-vue-admin/server/initialize/gorm.go:70	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 17:01:34.750	[34minfo[0m	D:/gin-vue-admin/server/initialize/router.go:40	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 17:01:34.849	[34minfo[0m	D:/gin-vue-admin/server/initialize/router.go:85	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 17:01:34.861	[34minfo[0m	D:/gin-vue-admin/server/core/server.go:36	server run success on 	{"address": ":8888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 17:12:29.237	[34minfo[0m	D:/gin-vue-admin/server/initialize/gorm.go:72	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 17:12:29.242	[34minfo[0m	D:/gin-vue-admin/server/initialize/router.go:41	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 17:12:29.251	[34minfo[0m	D:/gin-vue-admin/server/initialize/router.go:87	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 17:12:29.263	[34minfo[0m	D:/gin-vue-admin/server/core/server.go:36	server run success on 	{"address": ":8888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 21:00:59.350	[34minfo[0m	D:/gin-vue-admin/server/initialize/gorm.go:72	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 21:00:59.361	[34minfo[0m	D:/gin-vue-admin/server/initialize/router.go:41	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 21:00:59.399	[34minfo[0m	D:/gin-vue-admin/server/initialize/router.go:87	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/03/15 - 21:00:59.417	[34minfo[0m	D:/gin-vue-admin/server/core/server.go:36	server run success on 	{"address": ":8888"}
