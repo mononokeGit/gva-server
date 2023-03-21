@@ -95,11 +95,17 @@ func (approveService *ApproveService) GetApproveInfoList(info applyroomReq.Appro
 	if info.Appdevice != "" {
 		db = db.Where("appdevice LIKE ?", "%"+info.Appdevice+"%")
 	}
-	if info.Appres1 != "" {
-		db = db.Where("appres1 LIKE ?", "%"+info.Appres1+"%")
+	if info.Appremarks != "" {
+		db = db.Where("appremarks LIKE ?", "%"+info.Appremarks+"%")
 	}
-	if info.Appres2 != "" {
-		db = db.Where("appres2 LIKE ?", "%"+info.Appres2+"%")
+	if info.Appstatus != "" {
+		db = db.Where("appstatus LIKE ?", "%"+info.Appstatus+"%")
+	}
+	if info.Appopinion != "" {
+		db = db.Where("appopinion LIKE ?", "%"+info.Appopinion+"%")
+	}
+	if info.Appother != "" {
+		db = db.Where("appother LIKE ?", "%"+info.Appother+"%")
 	}
 	err = db.Count(&total).Error
 	if err != nil {
