@@ -1,6 +1,7 @@
 package service
 
 import (
+	"github.com/flipped-aurora/gin-vue-admin/server/service/BasicRoom"
 	"github.com/flipped-aurora/gin-vue-admin/server/service/Lphone"
 	"github.com/flipped-aurora/gin-vue-admin/server/service/applyroom"
 	"github.com/flipped-aurora/gin-vue-admin/server/service/example"
@@ -14,6 +15,7 @@ type ServiceGroup struct {
 	LphoneServiceGroup       Lphone.ServiceGroup
 	MeetcalendarServiceGroup meetcalendar.ServiceGroup
 	ApplyroomServiceGroup    applyroom.ServiceGroup
+	BasicroomServiceGroup    BasicRoom.ServiceGroup
 }
 
 var ServiceGroupApp = new(ServiceGroup)

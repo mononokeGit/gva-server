@@ -1,6 +1,7 @@
 package v1
 
 import (
+	"github.com/flipped-aurora/gin-vue-admin/server/api/v1/BasicRoom"
 	"github.com/flipped-aurora/gin-vue-admin/server/api/v1/Lphone"
 	"github.com/flipped-aurora/gin-vue-admin/server/api/v1/applyroom"
 	"github.com/flipped-aurora/gin-vue-admin/server/api/v1/example"
@@ -14,6 +15,7 @@ type ApiGroup struct {
 	LphoneApiGroup       Lphone.ApiGroup
 	MeetcalendarApiGroup meetcalendar.ApiGroup
 	ApplyroomApiGroup    applyroom.ApiGroup
+	BasicroomApiGroup    BasicRoom.ApiGroup
 }
 
 var ApiGroupApp = new(ApiGroup)

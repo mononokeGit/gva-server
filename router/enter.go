@@ -1,6 +1,7 @@
 package router
 
 import (
+	"github.com/flipped-aurora/gin-vue-admin/server/router/BasicRoom"
 	"github.com/flipped-aurora/gin-vue-admin/server/router/Lphone"
 	"github.com/flipped-aurora/gin-vue-admin/server/router/applyroom"
 	"github.com/flipped-aurora/gin-vue-admin/server/router/example"
@@ -14,6 +15,7 @@ type RouterGroup struct {
 	Lphone       Lphone.RouterGroup
 	Meetcalendar meetcalendar.RouterGroup
 	Applyroom    applyroom.RouterGroup
+	Basicroom    BasicRoom.RouterGroup
 }
 
 var RouterGroupApp = new(RouterGroup)
